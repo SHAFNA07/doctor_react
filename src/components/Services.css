@@ -1,0 +1,45 @@
+
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2rem;
+}
+.services .box-container .box{
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    padding: 2.5rem;
+}
+.services .box-container .box i{
+    color: var(--dark-blue);
+    font-size: 3.5rem;
+}
+.services .box-container .box h3{
+    color: var(--black);
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+
+.services .box-container .box p{
+    color: var(--light);
+    font-size: 1.5rem;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 3rem;
+    letter-spacing: .4rem;
+}
+.heading span{
+    text-transform: uppercase;
+    color: var(--blue);
+}

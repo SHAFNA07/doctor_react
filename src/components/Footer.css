@@ -1,0 +1,33 @@
+.footer{
+    background: #f1f8f6;
+}
+.footer .box-container{
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+}
+.footer .box-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    padding: 1rem 0;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    color: var(--light);
+    padding: 1rem 0;
+}
+.footer .bottom{
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--light);
+    border-top: var(--border); 
+}
+
+
+.footer .bottom span{
+    color: var(--blue);
+    font-weight: 600;
+}

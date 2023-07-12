@@ -1,0 +1,49 @@
+.about .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+}
+.about .wrapper .image{
+    flex: 1 1 45rem;
+}
+.about .wrapper .image img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border: var(--border);
+}
+.about .wrapper .content{
+    flex: 1 1 45rem;
+}
+
+.about .wrapper .content h3{
+    color: var(--blue);
+    font-size: 3rem;
+    line-height: 1.8;
+    font-family: cursive;
+}
+.about .wrapper .content p{
+    color: var(--light);
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 3rem;
+    letter-spacing: .4rem;
+}
+.heading span{
+    text-transform: uppercase;
+    color: var(--blue);
+}
+

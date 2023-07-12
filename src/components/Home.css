@@ -1,0 +1,67 @@
+
+.home{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 10rem;
+}
+.home .content{
+    flex: 1 1 45rem;
+}
+.home .image{
+    flex: 1 1 45rem;
+}
+.home .image img{
+    width: 100%;
+}
+.home .content h3{
+    font-size: 4.5rem;
+    color: var(--black);
+    line-height: 1.8;
+}
+.home .content p{
+    font-size: 1.7rem;
+    color: var(--light);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .5rem;
+    padding-left: 1rem;
+    font-size: 1.7rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    color: var(--blue);
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 3rem;
+    letter-spacing: .4rem;
+}
+.heading span{
+    text-transform: uppercase;
+    color: var(--blue);
+}
+.logoutButton {
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    background-color: rgb(153, 255, 255);
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: x-large;
+  }

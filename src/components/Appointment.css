@@ -1,0 +1,109 @@
+.appointments .wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;   
+    
+    font-family: sans-serif; 
+}
+
+
+.appointments .wrapper table{
+    flex: 1 1 45rem;
+    background: #fff;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+    
+
+}
+
+  
+  /*Responsive table*/
+  .table1 { 
+    width: 100%; 
+    border-collapse: collapse; 
+    background: #737575; 
+    font-size: large;
+
+  }
+  
+  td, th { 
+    padding: 8px; 
+    text-align: left; 
+  }
+  
+  /* Zebra striping */
+  tr:nth-of-type(odd) { 
+    background: #a6cce2; 
+  }
+  
+  th { 
+    background: #64a9d8; 
+    font-weight: bold; 
+  }
+  
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    padding-right: 1rem;
+    padding: 10px;
+    font-size: 1.7rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    color: var(--blue);
+}
+  
+.btn1{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    padding-right: 2rem;
+    padding: 10px;
+    font-size: 1.7rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    background: #13c1d8
+}
+  
+.btn2{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    padding-right: 1rem;
+    padding: 10px;
+    font-size: 1.7rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    background: #0ba049
+}
+  
+.btn3{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    padding-right: 1rem;
+    padding: 10px;
+    font-size: 1.7rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    background: #e01507
+}
+
+
+.loginbookButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: rgb(23, 172, 241);
+  cursor: pointer;
+  padding: 15px;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: larger;
+  
+}

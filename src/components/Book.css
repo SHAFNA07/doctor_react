@@ -1,0 +1,59 @@
+
+.contact .wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem; 
+}
+.contact .wrapper .image{
+    flex: 1 1 45rem;
+}
+.contact .wrapper .image img{
+    width: 100%;
+}
+.contact .wrapper form{
+    flex: 1 1 45rem;
+    background: #fff;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+
+.contact .wrapper form h3{
+    color: var(--blue);
+    font-family: cursive;
+    font-size: 3rem;
+}
+.contact .wrapper form .box{
+    width: 100%;
+    margin: .7rem 0;
+    border-radius: .5rem;
+    border: var(--border);
+    font-size: 1.6rem;
+    text-transform: none;
+    color: var(--black);
+    padding: 1rem;
+}
+.contact .wrapper form .btn{
+    cursor: pointer;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 3rem;
+    letter-spacing: .4rem;
+}
+.heading span{
+    text-transform: uppercase;
+    color: var(--blue);
+}
